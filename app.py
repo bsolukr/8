@@ -18,7 +18,7 @@ def check_password():
         st.subheader("🔒 8체질 섭생노트 보안 인증")
         st.info("본 웹 응용 시스템은 과도한 접속 및 자원 남용 방지를 위해 보안 비밀번호가 설정되어 있습니다.")
         
-        entered_password = st.text_input("비밀번호를 입력하세요 (기본: pnumis)", type="password")
+        entered_password = st.text_input("비밀번호를 입력하세요 (기본: pnu***)", type="password")
         col_btn1, col_btn2 = st.columns(2)
         
         with col_btn1:
